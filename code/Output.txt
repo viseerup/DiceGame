@@ -1,0 +1,46 @@
+#Alice output
+
+Waiting for client on port 8087...
+Just connected to /127.0.0.1:57102
+From Bob : P = 11.0
+From Bob : G = 8.0
+From Bob : Public Key 
+From Bob get a public h = gx  
+Sending Alice Pk to Bob
+compute shared key to perform Elgamal Encryption 
+Alice computes Commitment C(a, r)
+Alice signs the Commitment 
+Encrypting the commitment
+Alice sends commitment
+From Bob : Bob's b
+Alice decrypts: Bob's b 
+Unsign Bobs b
+valid Bob's b
+Bob's b is 2.0
+Alice's a is 2
+Alice and Bob Dice 1
+
+#Bob output
+
+Connecting to localhost on port 8087
+Just connected to localhost/127.0.0.1:8087
+From Alice : Public Key 
+compute shared key
+From Alice : NonSigned commitment
+From Alice : Signed commitment 
+Unsign Alice's commitment
+valid signed commitment
+From Alice : encrypted a 
+From Alice : encrypted Signed a 
+From Alice : encrypted commitment key 
+From Alice : encrypted Signed commitment key 
+Unsign Alice's a
+valid signed a
+Unsign key to open commitment
+valid signed key
+Computes alice's commitment with the key and a sent by Alice
+Does Alice's claimed answer much her commitment? : 
+ True 
+ Openned commitment with the key 
+Alice and Bob Dice 1
+
